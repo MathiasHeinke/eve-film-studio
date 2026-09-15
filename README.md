@@ -92,3 +92,5 @@ Film assets, voices, music, customer material, credentials and local production 
 ## License
 
 MIT. See [LICENSE](LICENSE) and [THIRD_PARTY.md](THIRD_PARTY.md). Dependencies and referenced services retain their own licenses and terms.
+
+The [audio/cut follow-up](assessments/2026-09-15/audio-repair.md) records the subsequent native helper repairs and their CLI/independent-review evidence. Run `python3 tests/test_assemble_film_cli.py` for the bounded regression suite.

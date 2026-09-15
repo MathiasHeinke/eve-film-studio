@@ -1,6 +1,6 @@
 {
   "name": "eve-film-studio",
-  "revision": "gemini-audiovisual-review-20260915",
+  "revision": "source-audio-exact-cuts-20260915",
   "license": "MIT",
   "entrypoints": [
     "skills/produce-brand-film/SKILL.md",
@@ -54,13 +54,13 @@
     },
     {
       "path": "skills/produce-brand-film/references/timeline-manifest.md",
-      "sha256": "5301f7c13e091ff4f3b31a86ae3d981dc4710074a97c04e2f2c8dddacccc79ef",
-      "bytes": 7859
+      "sha256": "ee5905c9466f0b8fdf2ee2e239a8e877c5222014d3f9e1ea5a21f5d847309838",
+      "bytes": 11105
     },
     {
       "path": "skills/produce-brand-film/scripts/assemble_film.py",
-      "sha256": "22fc3b83a4f710b230123a37bcc6129192aba49794329f710dc4adec1d41c4f0",
-      "bytes": 16390
+      "sha256": "33408ffd13db890c8a53600ff68763a97a9cc4d45c13b0ee5888b456a64c0e0c",
+      "bytes": 21263
     },
     {
       "path": "skills/produce-brand-film/scripts/generate_score.py",
