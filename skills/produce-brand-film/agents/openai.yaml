@@ -1,0 +1,4 @@
+interface:
+  display_name: "Produce Brand Film"
+  short_description: "Create gated cinematic brand films end to end"
+  default_prompt: "Use $produce-brand-film to create a complete cinematic launch film from my product brief and brand assets."

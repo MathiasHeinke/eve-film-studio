@@ -1,0 +1,14 @@
+{
+  "mcp_servers": {
+    "fcpxml": {
+      "command": "/absolute/path/to/fcpxml-venv/bin/python",
+      "args": ["-I", "-m", "server"],
+      "env": {
+        "FCP_PROJECTS_DIRS": "/absolute/path/to/authorized/project",
+        "FCP_PROJECTS_DIR": "/absolute/path/to/authorized/project",
+        "FCP_MCP_INDEX": "off",
+        "FCP_MCP_JOURNAL": "/absolute/path/to/authorized/project/.fcpxml-journal"
+      }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "eve-film-studio",
+  "revision": "continuity-and-graphic-grammar-20260915",
+  "license": "MIT",
+  "entrypoints": [
+    "skills/produce-brand-film/SKILL.md",
+    "skills/video-editing/SKILL.md"
+  ],
+  "files": [
+    {
+      "path": "skills/produce-brand-film/SKILL.md",
+      "sha256": "f1fe6fb7848418907418eab39b04d131522e09c3639c9080ae05383295858bcd",
+      "bytes": 6403
+    },
+    {
+      "path": "skills/produce-brand-film/agents/openai.yaml",
+      "sha256": "9a02c4bb0f5dbfe2811459689aeb1209fdecc53b46f842de8a20dd686ef02d19",
+      "bytes": 244
+    },
+    {
+      "path": "skills/produce-brand-film/references/cinematic-graphics.md",
+      "sha256": "980ce50730ffc49720e6bc71947f216509476ca3a4631125cd0612c9a26f804a",
+      "bytes": 6277
+    },
+    {
+      "path": "skills/produce-brand-film/references/continuity-and-review.md",
+      "sha256": "824e68d9ab4eeaf3bca087b33cb9f1d27db9a82e300165e3ac4e1dd2cb15cca9",
+      "bytes": 5657
+    },
+    {
+      "path": "skills/produce-brand-film/references/film-craft.md",
+      "sha256": "ac2093e60e3ffe83b8ea594855ff3564d2d549718b6d6f5540b884d411dd3490",
+      "bytes": 11202
+    },
+    {
+      "path": "skills/produce-brand-film/references/grok-media-routing.md",
+      "sha256": "ed837617eaf3410222b32d57b38fb8bee628c1200e4b7fc910c5763c61975169",
+      "bytes": 2481
+    },
+    {
+      "path": "skills/produce-brand-film/references/review-gates.md",
+      "sha256": "413a0e397fb1db2b056cdedb3aa1bada7479b3e3057e301425effe309c660986",
+      "bytes": 5324
+    },
+    {
+      "path": "skills/produce-brand-film/references/storyboard-contract.md",
+      "sha256": "88918326948f89e5fa2b44cf2e5e819e8e80fe5f27d1281dd1eb8205ed77a709",
+      "bytes": 2589
+    },
+    {
+      "path": "skills/produce-brand-film/references/timeline-manifest.md",
+      "sha256": "607968f1c8d60d18354052d8f5e68bc1e8eb6b8904aeac9dcdd3ac0de4da4a33",
+      "bytes": 7112
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/assemble_film.py",
+      "sha256": "22fc3b83a4f710b230123a37bcc6129192aba49794329f710dc4adec1d41c4f0",
+      "bytes": 16390
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/generate_score.py",
+      "sha256": "06f7cf3f5493063fcf6d2557d8889bbff1bcb1f8d3cba7be8d15aee43393263b",
+      "bytes": 4696
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/kinetic_type.py",
+      "sha256": "f2fbb4a7321f53c179447c73c891f54c27c12c95d0900dbf7c4d47f1eff26840",
+      "bytes": 17950
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/validate_film.py",
+      "sha256": "04daf2e8ddaa8b0959300e1249d2f9e16c0aadcc5c99763d2994d4775edb4ba1",
+      "bytes": 10283
+    },
+    {
+      "path": "skills/video-editing/SKILL.md",
+      "sha256": "624aa5df1d579095192dbdc431a47e5a6cde5af79dc968b38c63383924bb923d",
+      "bytes": 9360
+    },
+    {
+      "path": "skills/video-editing/examples/hermes-mcp.json",
+      "sha256": "29ad7daaed1df61e7e6407c451a8056556d461f18d59c2166326ad4fa2f594b0",
+      "bytes": 422
+    },
+    {
+      "path": "skills/video-editing/references/acceptance.md",
+      "sha256": "2249faba2e3257515a7fb7f0b495748b2c90995fb0eec4464dc88535df322780",
+      "bytes": 6612
+    },
+    {
+      "path": "skills/video-editing/references/camera-direction.md",
+      "sha256": "626fa4b42e4711729e06acf0e9e8b95802257d0c0318b2e1464e4fbb3853b207",
+      "bytes": 9382
+    },
+    {
+      "path": "skills/video-editing/references/community-sources.md",
+      "sha256": "00b4a2b7e3a4a32fdfbc4d5bcdd2d2e8cfe92b57deda35d747333771e56c6c96",
+      "bytes": 3357
+    },
+    {
+      "path": "skills/video-editing/references/editing-toolbox.md",
+      "sha256": "d7cb6bb03689e7ed397309e9e9262c8fb7e5194e96f4c1803dc98acbf462345f",
+      "bytes": 5752
+    },
+    {
+      "path": "skills/video-editing/references/generated-inserts.md",
+      "sha256": "422578608f5f21169f7d3067744d89cc811b75be1828d9c986c4c8fa45b503fa",
+      "bytes": 12334
+    },
+    {
+      "path": "skills/video-editing/references/setup.md",
+      "sha256": "6303f8cc7de033a8388d5f5a78342363c85461e0fc5655ff8b6958104758ba56",
+      "bytes": 4235
+    },
+    {
+      "path": "skills/video-editing/requirements-tested.txt",
+      "sha256": "ed967888d819021003ef8607fd60d90e11b3ce3ba93f0f15e80f39398d98f682",
+      "bytes": 695
+    },
+    {
+      "path": "skills/video-editing/scripts/verify_mcp.py",
+      "sha256": "e6b23dc5440dbec3de778c91e7881a587b1096bacf6fb9e60f4d982c77ab9896",
+      "bytes": 8435
+    }
+  ],
+  "scope": "Skill files only. Local paths, production media and private reports excluded."
+}
