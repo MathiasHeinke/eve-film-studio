@@ -80,6 +80,11 @@ Use the [timeline manifest guide](skills/produce-brand-film/references/timeline-
 
 This is an evolving production method. It was refined against observed story, continuity, graphic and audio-review failures. It does not promise a numerical quality score, universal model reliability or an untested editor integration.
 
+The [2026-09-15 system assessment](assessments/2026-09-15/README.md) publishes
+the author's self-assessment, an independent Fable 5.1 review, reproducible local
+measurements, disagreements and the next iterations. Its ratings are judgments
+about a named snapshot, not a guarantee of film quality.
+
 Host permissions and the user's budget still govern spending, uploads and publication. Staged product examples must not be presented as measured real execution.
 
 Film assets, voices, music, customer material, credentials and local production reports are not included. [manifest.json](manifest.json) records the distributed skill files with relative paths and SHA256 hashes.

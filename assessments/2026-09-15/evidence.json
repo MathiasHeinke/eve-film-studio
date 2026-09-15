@@ -1,0 +1,133 @@
+{
+  "reviewed_commit": "519a7f0abc954553c3f06ba90e6503e0d01b51ba",
+  "scope": "local synthetic probes of existing helpers; not film-quality tests",
+  "observations": [
+    {
+      "id": "source_audio",
+      "input_rms": 0.08816555521537484,
+      "result": {
+        "requested_duration": 2,
+        "reported_duration": 2.0,
+        "exit_code": 0,
+        "media": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_type": "video",
+              "duration": "2.000000"
+            },
+            {
+              "codec_type": "audio",
+              "duration": "2.000000"
+            }
+          ],
+          "format": {
+            "duration": "2.000000",
+            "size": "83555"
+          }
+        },
+        "rms": 0.0,
+        "normalized_streams": [
+          {
+            "codec_type": "video",
+            "duration": "2.000000"
+          }
+        ]
+      },
+      "interpretation": "Source soundtrack is removed and final output receives a silent track when no separate voice/music is supplied."
+    },
+    {
+      "id": "short_source",
+      "input_duration": "2.000000",
+      "result": {
+        "requested_duration": 4,
+        "reported_duration": 4.0,
+        "exit_code": 0,
+        "media": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_type": "video",
+              "duration": "2.000000"
+            },
+            {
+              "codec_type": "audio",
+              "duration": "4.000000"
+            }
+          ],
+          "format": {
+            "duration": "4.000000",
+            "size": "84495"
+          }
+        },
+        "rms": 0.0,
+        "normalized_streams": [
+          {
+            "codec_type": "video",
+            "duration": "2.000000"
+          }
+        ]
+      },
+      "interpretation": "Declared usable range exceeds source; inspect actual stream durations against declared output."
+    },
+    {
+      "id": "voice_volume",
+      "gain_1_rms": 0.09274884780834812,
+      "gain_0_rms": 0.09274884780834812,
+      "rms_ratio": 1.0,
+      "interpretation": "Voice-only path does not apply voice_volume=0."
+    },
+    {
+      "id": "mix_normalization",
+      "voice_only_rms": 0.09274884780834812,
+      "with_silent_music_rms": 0.04632490351600538,
+      "rms_ratio": 0.4994660808264593,
+      "interpretation": "Adding a silent music input changes level at unchanged voice gain."
+    },
+    {
+      "id": "technical_validator_scope",
+      "master_sha256": "0dcc1b3e639161139feca4e25cda38c5c9f85c90a9cb88336d970f777577bd13",
+      "exit_code": 0,
+      "verdict": "PASS",
+      "checks": {
+        "duration_in_range": true,
+        "video_present": true,
+        "audio_present": true,
+        "dimensions_match": true,
+        "video_codec_h264": true,
+        "pixel_format_web_safe": true,
+        "frame_rate_match": true,
+        "audio_codec_aac": true,
+        "audio_sample_rate_48000": true,
+        "audio_stereo": true,
+        "video_duration_matches_container": true,
+        "audio_duration_matches_container": true,
+        "faststart": true,
+        "full_decode": true,
+        "file_nonzero": true
+      },
+      "interpretation": "Format/decode result only; this artifact has a separately reported human-observed cross-cut speech defect."
+    }
+  ],
+  "tools": {
+    "python": "3.14.5",
+    "ffmpeg": "ffmpeg version 8.1.1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "review_type": "measurement plus separately marked author interpretation",
+  "paid_inference_added": false,
+  "instruction_word_counts": {
+    "all_skill_files": 19458,
+    "markdown_instructions": 14314,
+    "brand_markdown": 6914
+  },
+  "assessment_independence": {
+    "author_assessment_frozen_before_external_report": true,
+    "fable_read_all_24_skill_files": true,
+    "fable_read_author_assessment": false,
+    "fable_runtime": "claude-fable-5-1",
+    "fable_route": "Claude Max interactive CLI",
+    "paid_provider_calls_in_this_assessment": 0
+  }
+}
