@@ -1,104 +1,59 @@
-# Review Gates
+# Review gates
 
-For the first integrated review or a rejected film, use the compact
-[creative failure rubric](film-craft.md#diagnose-creative-failure-without-laundering-a-technical-pass).
-Apply the relevant checks below to the exact delivered master. Record technical
-results, creative observations, product/claim evidence and the user's acceptance
-separately; no combined PASS or ungrounded numeric quality claim follows from them.
+Start by declaring the available image, motion and audio perception as defined
+in [continuity-and-review.md](continuity-and-review.md#reviewer-and-perception).
+A sound-dependent check without hearing is `not reviewed`, not passed through
+ASR or meters. That file owns reviewer selection, cold comprehension, stage
+records and progression decisions. Apply the relevant checks below to an exact
+material version; use the [craft rubric](film-craft.md#diagnose-creative-failure-without-laundering-a-technical-pass)
+when deciding which failure needs repair.
 
-## Stage and evidence
+## Story
 
-For connected narrative scenes, use [continuity-and-review.md](continuity-and-review.md):
-review the finished storyboard, the ordered actual reference images, and the
-actual takes with their neighbours before promoting each stage. Begin the
-scene/film review with an unprompted account of what was understood; reveal
-the script only afterward. State when only frames, metadata or ASR were
-available. Such evidence does not establish full audiovisual comprehension.
+- The opening establishes a recognisable situation or dramatic question.
+- Essential assumptions in the storyboard are supported; the turn follows from
+  the product's contribution and an intelligible human choice.
+- The cold response satisfies the frozen essential meaning under the review
+  protocol. Record absent or contradicted essentials instead of explaining them away.
 
-## Story Gate
+## Brand and claims
 
-- The opening establishes an intelligible human situation or dramatic question.
-- Motivations, relationships and shared knowledge make everyday sense without
-  invented offscreen backstory; possible is not the same as adequately established.
-- Escalation adds pressure instead of repeating the same failure.
-- The product appears as the causal turn, not as an unexplained logo reveal.
-- Proof shows mechanisms the product actually supports.
-- At least one human or visual motif returns after the turn.
+- Original logo artwork, approved colors and product stage are accurate.
+- Actual product UI claims have a reference. Generated or conceptual UI follows
+  [UI provenance and claim class](cinematic-graphics.md#ui-provenance-and-claim-class).
+- Exact wording and values are legible; staged results are clearly examples.
+- No unsupported testimonial, metric, partnership or real customer depiction.
 
-## Brand And Claim Gate
+## Picture and graphics
 
-- Logo, approved colors, product stage, and UI are source-backed.
-- Exact copy is deterministic and readable.
-- No real customer is depicted without supplied consented assets.
-- No invented testimonial, metric, partnership, integration, or competitor
-  failure claim appears.
-- Aspirational scenes are clearly product vision or generic narrative, not fake
-  live evidence.
+- Identity, anatomy, objects, eyelines and action states hold across the actual
+  joins, within the continuity method's allowance for motivated offscreen change.
+- Each cut and held shot serves the scene; performances convey the needed change.
+- Graphic form makes its role and speaker clear; check entrance, readable hold,
+  state transition and exit beside the human action at delivery size.
+- Effective font axes/weight, contrast, safe area and face/gesture clearance work.
+- Generated lettering stays correct throughout its used interval. Retain required
+  source provenance marks; reject unexpected marks rather than hiding them.
 
-## Picture Gate
+## Sound — only with qualified hearing
 
-- No broken anatomy, identity drift presented as continuity, accidental logos,
-  unreadable generated text, or unsafe screen content. Preserve required native
-  provenance marks; reject unexpected marks and never crop, alter, or obscure a
-  provider watermark.
-- Cuts are motivated and every shot earns its duration.
-- Actual outgoing/incoming gaze, hands, props and action states connect, or a
-  deliberate offscreen change/time ellipse is understandable. Check the join
-  in motion; matching identity portraits alone do not prove continuity.
-- The grade has an intentional before/after arc.
-- UI is readable long enough to understand but not exposed as private data.
+- Complete dialogue is understandable at the intended playback level.
+- Music supports the scene and does not mask speech; edits and the tail sound natural.
+- Selected source sound does not duplicate or replace the separate master tracks.
+- A muted pass tests visual comprehension separately; optional captions are identified.
 
-## Graphics-in-context Gate
+## Technical checks
 
-- Graphic form communicates its chosen function: input, message, artifact,
-  status, editorial context or brand statement.
-- Titles and proof inserts share the film's light, material, palette and pace.
-- A neutral placeholder or default rounded panel has not been silently promoted
-  into the final design. Minimal white imagery remains a valid deliberate choice.
-- Check a dialogue frame, a proof frame and a title frame side by side, plus the
-  actual entry, readable hold and exit of each graphic treatment.
-- Variable-font axes and weight are explicitly set in the renderer. A correct
-  font family alone does not establish the intended appearance.
-- Generated lettering passes whole-shot spelling, value and temporal-stability
-  checks; otherwise use a clean plate and an exact text/brand layer.
+- Duration, dimensions, frame rate, audio sample rate and channel layout match delivery.
+- H.264/yuv420p/AAC master decodes fully and has faststart for web playback.
+- Contact sheet and source/timeline mapping belong to the delivered version.
+- For the explicitly selected [kinetic policy](timeline-manifest.md#optional-kinetic-policy),
+  provide manifest and render directory. Check receipts for copy/font hashes,
+  frame counts, alpha and motion evidence. This checks the manifest path, not
+  every visible text surface in the finished film; readable holds are supported.
 
-## Kinetic Type Gate
+## Handoff
 
-- If `text_policy` is `kinetic_only`, no scene contains a static `overlay`,
-  lower-third panel, or persistent caption strip.
-- Every visible phrase has a motivated entrance or transformation and a clean
-  settle; motion supports hierarchy instead of animating every letter for its
-  own sake.
-- Copy, manifest, font, frame-count, alpha-format, decode, and motion-proof
-  checks pass in every `scene-XX-kinetic-receipt.json`.
-- Enter-middle, settled, and exit-middle proof frames are inspected at full
-  resolution. Automated receipts prove motion and determinism; a human still
-  judges rhythm, legibility, and whether the result feels current.
-
-## Sound Gate
-
-- Generated picture inserts and title/proof intermediates do not replace or
-  double master audio. Inspect returned tracks, not only the no-audio request.
-- Dialogue or voice is intelligible on laptop speakers.
-- Music supports the turn and never masks words.
-- No clipping, long digital silence, abrupt tail, or unlicensed source.
-- The film still communicates when muted.
-
-## Technical Gate
-
-- Final duration matches the brief.
-- H.264/yuv420p/AAC master decodes from start to finish.
-- Resolution, frame rate, aspect ratio, and audio sample rate are stable.
-- `faststart` is enabled for web playback.
-- Contact sheet and validation receipt match the delivered master.
-- A `kinetic_only` delivery was validated with both `--manifest` and
-  `--render-dir`; a plain MP4 probe is not sufficient.
-
-## Creative Acceptance
-
-- The actual integrated master was watched at normal speed with sound and muted;
-  an animatic, contact sheet or intermediate is identified as such.
-- Report the viewer's understood cause, action and outcome, plus any failed
-  dimension/timecode. Do not infer comprehension from a successful export.
-- Preserve a user's rejection or rating as their judgment until they assess a
-  revision. A technical repair is evidence of that repair, not creative acceptance.
+Keep the technical validator output separate from storyboard review records.
+Report unresolved or unreviewed checks and the user's actual acceptance state.
+Technical results cannot substitute for creative acceptance or publication authority.

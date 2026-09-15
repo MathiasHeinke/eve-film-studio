@@ -15,15 +15,14 @@ The skills contain instructions, focused references and local Python helpers. Th
 
 ## The production method
 
-1. Start with a recognisable human situation and a meaningful contradiction.
-2. Develop and challenge the story before choosing attractive scenes.
-3. Review the completed storyboard and the actual ordered reference images.
-4. Generate dependent shots from their accepted predecessor state; independent shots can run in parallel.
-5. Review the real incoming and outgoing clips, including eyelines, hands, props, performance and sound.
-6. Ask an independent reviewer what they understood before showing them the author's explanation.
-7. Deliver a complete film with sources, costs, edit notes and checks actually performed.
+The workflow moves from human observations and competing story ideas to a
+critically revised story, storyboard, reference images, generated takes and
+assembled film. It keeps story assumptions and review decisions in the
+existing storyboard. The operational rules live in
+[continuity and review decisions](skills/produce-brand-film/references/continuity-and-review.md).
 
-A shared face reference does not preserve an action state. A technically valid export does not establish that a story works.
+That method defines independent review, available perception, a neutral-input
+comprehension pass and when production needs revision or remains unreviewed.
 
 ## Graphics follow their role
 

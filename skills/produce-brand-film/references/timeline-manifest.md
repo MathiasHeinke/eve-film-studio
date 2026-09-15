@@ -4,9 +4,21 @@
 to the process working directory. Use an explicit brand font file whenever text
 overlays are present.
 
-For contemporary software films that forbid lower thirds or static title
-cards, set `text_policy` to `kinetic_only` and use `kinetic_text` scenes. This
-policy rejects every legacy `overlay` block before rendering.
+## Optional kinetic policy
+
+`text_policy: kinetic_only` is an explicit opt-in restriction on manifest-authored
+typography, not the default for filmic graphics. It rejects every non-empty
+scene `overlay` field. Validation also requires at least one `kinetic_text`
+scene and its render receipts; omitting/nulling the policy skips those kinetic
+checks. A scene cannot combine non-empty `overlay` and `kinetic_text` blocks.
+
+A readable settled hold after entrance and before an optional exit is supported;
+"kinetic" does not require movement in every frame. There are no composer,
+message or result exceptions in this schema, and no native bubble/composer
+primitive. The check does not classify writing already present in source media.
+Choose functional UI with the existing editor or a verified source/composite,
+and check it against the brief separately. Do not use source-baked text to
+bypass an explicit creative restriction or claim that the validator saw it.
 
 ## Minimal example
 

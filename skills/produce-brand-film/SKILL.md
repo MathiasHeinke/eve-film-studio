@@ -5,86 +5,65 @@ description: Create or repair complete 20-90 second brand, product, launch and a
 
 # Produce Brand Film
 
-Own the film from brief to a reviewable master. Use the existing editor and
-media pipeline; this skill does not add agents, providers or permission systems.
-For native editing and generated inserts in existing footage, use the sibling
-[video-editing](../video-editing/SKILL.md) skill for those operations.
+Own the film from brief to a reviewable master using the available editor and
+media pipeline. The sibling [video-editing](../video-editing/SKILL.md) skill
+supplies native editing operations; no second production system is needed.
 
 ## Workflow
 
-1. **Resolve the actual brief and sources.** Read current positioning, release
-   stage and offer boundaries. Inventory approved logo artwork, UI, fonts,
-   colors, footage and audio. Record audience, desired takeaway, delivery and
-   the user's creative choices in the project. Locale, setting and style are
-   campaign choices; do not infer permanent preferences from one film.
-   Customer anecdotes are problem evidence, not testimonials. Use fictional
-   people unless consented likeness assets were supplied. Distinguish a private
-   experiment, review draft, paid ad and public launch; authorization is scoped.
+1. **Resolve the brief and sources.** Record audience, intended takeaway,
+   delivery, current product/offer truth, approved logo, UI, fonts, footage and
+   audio. Treat locale and style as campaign choices. Use fictional people
+   unless consented likeness assets were supplied; anecdotes are not customer
+   testimonials. Keep the user's actual spending and publication scope explicit.
 
-2. **Resolve meaning before selecting scenes.** Answer the human want,
-   contradiction, dramatic question, discovery and causal product contribution.
-   If these remain open, work on the concept; do not start a footage batch.
-   Develop human observations into a story, critique and revise it, then write
-   the script and choose scenes before detailed camera, edit and music. Read
-   [film-craft.md](references/film-craft.md) and use the existing
-   [storyboard contract](references/storyboard-contract.md). Connect a concrete
-   need, the product's action, its visible result and a human consequence.
-   Use [continuity and staged review](references/continuity-and-review.md)
-   to challenge everyday plausibility and the finished storyboard before staging.
-   Define shot purpose, source/timeline ranges, continuity, copy, sound and
-   transitions. Make a small rough sequence with the hardest causal turn and
-   adjacent shots; a collection of attractive keyframes cannot prove the edit.
+2. **Develop meaning, then the story.** Use [film craft](references/film-craft.md)
+   to explore human observations and competing premises. Critically revise the
+   selected story before choosing scenes, detailed camera, edit or music.
+   Record its essential relationships, knowledge and viewer inferences in the
+   [storyboard](references/storyboard-contract.md). The
+   [staged review method](references/continuity-and-review.md) owns plausibility,
+   independent review and progression decisions. Prove the hardest causal turn
+   in a short connected rough sequence before the dependent footage batch.
 
-3. **Design information inside the film.** For messages, product proof and
-   titles, read [cinematic-graphics.md](references/cinematic-graphics.md).
-   Choose the graphic grammar by its narrative function: input composer,
-   assistant message, artifact/status, editorial context or brand statement.
-   Review the ordered actual anchor images and a human/proof/end frame together
-   before rendering a dependent scene or its text sequence. Use the approved logo asset, explicitly instantiate
-   font weight/axes and compose the ending over the actual final moving shot.
-   Use `text_policy: kinetic_only` only when the brief actually requires that
-   restriction. A request for filmic integration does not forbid a readable
-   composer, message bubble or appropriate lower third.
+3. **Plan images and information.** Review the ordered actual anchor images
+   against the storyboard's scene states. Separately choose graphic roles and
+   review their human/proof/end frames using
+   [cinematic graphics](references/cinematic-graphics.md). Instantiate font
+   weight/axes, retain exact brand artwork and compose over the selected motion.
+   Functional UI and editorial type need not share the same visual grammar.
+   The optional [kinetic policy](references/timeline-manifest.md#optional-kinetic-policy)
+   is a specific renderer contract, not the default meaning of "cinematic".
 
-4. **Generate only footage needed by the planned cut.** Prefer real UI and
-   product media for proof. For new generation, confirm the available tool,
-   auth lane, quota and output with one authorized scoped shot before a batch.
-   For Grok Build, read [grok-media-routing.md](references/grok-media-routing.md);
-   a consumer subscription does not imply API credits. Preserve identity with
-   references or one continuous arc; reject drift presented as continuity.
-   Generate connected action/eyeline shots in sequence from the predecessor
-   ending actually accepted; independent shots may still run in parallel.
-   Keep logos, URLs, values, status and critical copy exact. A requested
-   generative headline needs whole-shot spelling/stability inspection.
+4. **Generate for the planned cut.** Prefer real product media where available.
+   Verify the current provider, input support, output, auth and budget with a
+   scoped authorized shot before a batch. For Grok Build, use
+   [media routing](references/grok-media-routing.md). Follow the staged review
+   method for dependent reference chains; preserve source files and inspect the
+   actual usable ranges. Exact text, values and logos require verification;
+   generated UI remains an illustrative representation, not recorded execution.
 
-5. **Edit picture and sound deliberately.** Read the rhythm/audio sections of
-   [film-craft.md](references/film-craft.md). Reuse the current native editor or
-   `scripts/assemble_film.py --manifest <timeline.json>`; the
-   [manifest reference](references/timeline-manifest.md) owns its schema.
-   Keep source files unchanged, generated visual inserts silent and master
-   dialogue/music on their own tracks. Probe delivered media before insertion.
-   Use `scripts/generate_score.py` when an original score suits the brief;
-   inspect its musical quality instead of treating a generated WAV as finished.
-   With FFmpeg assembly, verify Python 3, `ffmpeg`, `ffprobe`, `rsvg-convert`,
-   `fc-scan` and `fc-match`. Typography uses render-local Fontconfig and exact
-   SVG layers; kinetic text also produces alpha, motion and decode receipts.
-   For Final Cut handoffs retain the FCPXML declaration/DOCTYPE and existing
-   asset UIDs, then verify native import. XML parsing alone is not that proof.
+5. **Edit picture and sound.** Use the existing editor or
+   `scripts/assemble_film.py --manifest <timeline.json>` with the
+   [manifest guide](references/timeline-manifest.md). Keep dialogue, music and
+   selected ambience separate from picture inserts. Probe delivered media;
+   no-audio requests do not guarantee silence. Use `generate_score.py` only
+   when an original procedural score serves the brief, then assess its quality.
+   Local assembly uses Python 3, FFmpeg/ffprobe, librsvg and Fontconfig; kinetic
+   text produces alpha, motion, font and decode receipts. For Final Cut retain
+   FCPXML declaration/DOCTYPE and previously imported asset UIDs, then verify
+   native import. Parsing XML is not that verification.
 
-6. **Judge the delivered film.** Use [review-gates.md](references/review-gates.md)
-   and its failure-rubric link. Watch the complete master at normal speed with
-   sound and muted, including real-size legibility and the final sound tail.
-   Run `scripts/validate_film.py` and create a matching contact sheet. For
-   `kinetic_only`, pass `--manifest` and `--render-dir` as well. Let a reviewer first describe the actual connected sequence without the
-   explanatory script, then compare it with the intended story. Technical
-   validation, creative assessment, product truth and the user's acceptance
-   are separate outcomes. Do not invent a quality score or call an unaccepted
-   revision an 8/10 because it exports successfully. Address the specific
-   observed failure before increasing scope, generations or tool count.
+6. **Review and deliver the exact version.** Before assigning review checks,
+   declare the reviewer's available image, motion and audio perception using
+   the staged review method. Missing hearing leaves sound-dependent checks
+   `not reviewed`; arrange a capable reviewer or leave a precise user handoff.
+   Apply [review gates](references/review-gates.md), perform the qualified
+   full-film viewing, and run `validate_film.py` with a matching contact sheet.
+   For the explicit kinetic policy also supply `--manifest` and `--render-dir`.
+   Resolve the observed failures at their owner before extending scope.
 
-## Output Contract
-
-Use a durable output folder:
+## Output
 
 ```text
 <film-root>/
@@ -98,11 +77,9 @@ Use a durable output folder:
   work/
 ```
 
-Keep the `sources/` originals unchanged. The master defaults to H.264, yuv420p,
-AAC, 1920x1080, 24 or 30 fps, and `faststart` unless the user names another
-target.
-
-Report the exact reviewed version, checks actually run, unresolved creative
-issues and acceptance state. A staged product result remains an illustrative
-example; neither an attractive film nor technical PASS establishes that the
-product executed the depicted workflow or that publication is authorized.
+The storyboard holds story essentials and staged review records; validation.json
+holds the technical validator output. Retain sources unchanged. Default master:
+H.264/yuv420p/AAC, 1920x1080, 24 or 30 fps, faststart, unless the brief differs.
+Report the reviewed version, actual evidence, unresolved checks and user's
+acceptance separately. A technical PASS does not establish creative quality,
+real product execution or permission to publish.

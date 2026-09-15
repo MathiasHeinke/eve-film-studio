@@ -1,174 +1,91 @@
-# Film craft: a causal story, a deliberate edit
+# Film craft: meaning, performance and rhythm
 
-Use during the first rough cut and when the user rejects a film that already
-passes technical checks. Keep decisions in the existing storyboard/edit notes;
-this reference adds no renderer, agent roster, memory store or approval system.
+Use during ideation, script development or repair of a technically valid film
+that disappoints creatively. [Continuity and review decisions](continuity-and-review.md)
+owns the review protocol; [cinematic graphics](cinematic-graphics.md) owns text
+and interaction grammar. This reference concentrates on the story and edit.
 
 ## Meaning before scene selection
 
-When the brief is still searching for its message, remain at the concept level.
-A user's critique is diagnostic evidence, not an instruction to replace every
-scene with the newest nouns they mentioned. Resolve the human want, familiar
-contradiction, open dramatic question, discovery, causal product contribution
-and desired inference before choosing casting, location or generated footage.
-Distinguish a feature demonstration from a dramatic premise. A hero-journey
-schema is optional; reversal, recognition or a small observed contradiction may
-serve the film better. Do not turn any one campaign's emotional insight into a
-universal rule. Completed media has no priority over the right concept.
-When learning from another campaign, separate observed film/audio mechanics,
-reported synopsis, inferred effect and documented recognition. Awards do not
-establish conversion. Choose a specific transferable mechanism instead of a
-collage of admired brands' surface treatments.
+Find a human want, a familiar contradiction, an open question and a discovery.
+Distinguish a useful feature demonstration from a dramatic premise. A hero's
+journey is optional; recognition, reversal or a small observed contradiction
+may serve a short film better. Existing attractive media has no priority over
+the right concept, and the newest noun in user feedback is not a new plot.
 
-## Ideation, story and critical development
+Start with lived behavior: what someone values about doing things themselves,
+what it costs in small shared moments, what stays unsaid and what another person
+notices. Pride, care and control may coexist with strain. Treat observations
+as hypotheses unless supported; do not invent interviews. Generic overload,
+incompetence or family guilt are weak substitutes for a particular insight.
 
-Begin with lived human observations, not an attractive setting, job title or
-feature list. Explore what the person values about doing things themselves,
-what it costs in small shared moments, what stays unsaid, and what another
-person notices. Keep observations as hypotheses until supported; do not invent
-interviews. Competence, pride, care and desire for control may coexist with
-strain. Avoid default incompetence, notification overload or guilt-driven
-family scenarios as substitutes for a specific insight.
+Develop contrasting interpretations, choose a story and revise its stakes,
+causal turn and likely alternative readings. Then choose scenes and write the
+script before detailed camera, edit, music and generation. Record essentials
+in the [storyboard contract](storyboard-contract.md); use its review stages
+before proceeding when the premise or continuity remains unresolved.
 
-Develop different interpretations before selecting a story. Then challenge the
-story for recognisable human stakes, causal clarity, earned change, audience
-inference, product necessity, clichés and alternative readings. Revise meaning
-before polishing scenes. Progress from ideation to story, critical revision,
-script and scene selection, then detailed camera, edit, music and execution.
-Revisit the story if downstream visualisation exposes a weak premise; do not
-let already-generated footage or a beat grid determine the message.
+## Give a moment more than one job
 
-Every chosen moment needs a reason: whose experience matters, what changes,
-what remains unstated, what the audience learns, and how it affects the next
-moment. A small gesture or a delayed response can carry more than dialogue.
-Love of detail means noticing and using those relationships, not adding props.
+For each moment identify whose experience matters, what changes, what remains
+unstated and what the viewer can infer. A gesture, delayed response or choice
+can reveal character while advancing action. Specificity matters more than
+extra props or a speech describing the intended emotion.
 
-## Text as an additional narrative layer
+For a problem/solution story, connect need, product action, visible result and
+human consequence through the same request, object or person. Other structures
+are valid; state the intended progression rather than forcing every story into
+a template. An ending cannot supply a causal link missing from the scene.
 
-A floating element over a continuing live-action scene can show an invisible
-message, typed phrase, decision or outcome without cutting to a monitor. Use
-it when the audience needs that specific information and the physical scene
-continues to carry emotion/action. Such an insert is not automatically an
-explanation card and is not required to stay inside a photographed screen.
-Decide what viewers must read, when they should notice it, how it relates to
-the person/action, and when it leaves. Avoid duplicating what the performance
-already tells. The chosen reference can inform attention and motion, but not
-replace this narrative purpose. H3 or another authorized generative route may
-render short in-world lettering if temporally stable and exact; approved logos,
-critical wording and values still need faithful reproduction and verification.
+When learning from a reference campaign, distinguish observed audiovisual
+mechanics, reported synopsis, inferred effect and documented recognition.
+Transfer a particular mechanism, such as changed meaning on a return, instead
+of combining admired brands' surface treatments. Awards do not establish ROI.
 
-## Storyboard, images and actual joins
+## Rhythm belongs to action and sound
 
-Use [continuity-and-review.md](continuity-and-review.md) for everyday plausibility,
-independent cold comprehension checks and sequential generation of dependent
-shots. Review the finished storyboard, the ordered actual anchors and then the
-actual neighbouring video clips. Filling a shot table or watching a player
-reach its end is not evidence that the intended meaning was understood.
+Cut at meaningful gestures, reactions, spoken turns and musical phrases. Beat
+editing does not require a cut on every beat. Pressure may shorten a shot;
+recognition and payoff need space. Break an established rhythm deliberately
+when the important change arrives. Judge the joins in sequence, not just a
+list of durations.
 
-## Start with the viewer's understanding
+A graphic's entrance and exit consume time; preserve its actual reading hold.
+If explanation cards have become the whole film, repair the human action or
+result they are trying to describe rather than adding more transition effects.
 
-Write one sentence naming the viewer, the concrete problem, what the product
-changes and why that matters. Draw audience, locale, language and visual setting
-from this brief. A location or style chosen for a past film is not a standing
-instruction for future campaigns.
+Treat ASR word timing as an estimate. Short words beside long pauses can be
+misaligned; verify an intended speech cut against the original sound and
+waveform. Listener reactions can carry a complete spoken passage when they
+belong to the same conversation. Do not trim a thought just to meet a beat grid.
 
-For a problem/solution story, link need → action → result → human consequence.
-Show the same request, object or person through those changes. A document has
-the same filename when it is drafted and sent; a calendar slot visibly changes
-after the agreed trigger. An end title cannot supply a missing causal link.
-Other film structures are valid when the brief calls for them; state their
-intended progression instead of forcing every campaign into one template.
+## One soundtrack owner
 
-Show what happened in the story through observable actions and resulting states.
-Keep staged product examples visibly distinct from recorded product execution.
-Do not imply a customer's instantaneous reply by omitting an essential time
-ellipse. Preserve the product's actual review/approval behavior when depicting it.
+Keep dialogue, music and selected ambience separate from generated visual
+inserts and intermediate graphics. Probe returned media: a no-audio request
+does not guarantee silence. Include generated sound only when deliberately
+selected for this edit. A previously exported film's soundtrack may contain
+old voices and effects; locate the clean music source before reusing it.
 
-Before producing the batch, cut the hardest transition and adjacent shots using
-available media or a rough animatic. Ask of this sequence: what changes, what
-causes it, and what would be incomprehensible without the explanatory voice?
-Resolve a failed answer in the sequence before polishing more unrelated shots.
-
-## Rhythm belongs to the action and the sound
-
-Choose cuts at meaningful gestures, reactions, spoken turns and musical phrases.
-Beat editing does not mean cutting on every beat. Pressure may shorten shots;
-recognition and payoff need room. Break a regular rhythm deliberately when the
-important result arrives. Watch the joins rather than merely comparing shot lengths.
-
-Mark the intended source and timeline range before generating an insert.
-Allow time for a graphic's entrance, actual reading and exit; a four-second
-clip with three seconds of animation has only one second to communicate.
-Judge the running edit at its delivery size with the sound mix, not from a
-contact sheet or silent timeline playback alone. Full muted playback then
-tests whether the visible story carries its essential meaning.
-
-If an edit has become a procession of explanation cards, repair the visual
-action or result that the cards are trying to describe. Do not solve repetition
-by adding more transitions. The existing storyboard's duration defaults are
-starting points, subordinate to the spoken action and legibility of this cut.
-
-## Type, product proof and logo share a visual world
-
-Use [cinematic-graphics.md](cinematic-graphics.md) for the complete method.
-Derive light, material, color, depth and composition from the adjacent footage.
-Information can live in physical space, in a precise overlay or in a deliberate
-graphic scene; its treatment must serve the film. White space and static type
-are valid choices when intended, not automatic failures.
-
-Inspect the actual font file and effective variable axes/weight. In one source
-production, a variable Manrope file opened at weight 200 despite the intended
-heavier title. Reusable correction: instantiate and inspect the chosen weight.
-The exact family, numeric weight, colors and title copy belong to that campaign.
-
-Place end typography on the final selected moving shot, with faces and important
-gestures clear throughout. A still showing another pose is not an equivalent
-ending. Use an alpha layer when the existing editor can composite it cleanly.
-Allow a fully readable hold after movement settles. Preserve the official logo's
-artwork, proportions and clear space; confirm which supplied variant is approved
-before using a reconstructed wordmark or a generated approximation.
-
-## Preserve one soundtrack owner
-
-Keep approved master dialogue, music and ambience separate from generated visual
-inserts and proof/title intermediates. A no-audio generation request does not
-guarantee a silent file: probe every returned media file. Discard its audio from
-the edit unless deliberately selected; never let it silently replace or double
-the master track. For an existing performance, maintain its continuous timing.
-
-Mix voice for intelligibility on the intended speakers, shape music around the
-spoken and emotional turn, and listen through every edit and the final tail.
-Check isolated voice, music and unwanted source sound when diagnosing a problem,
-then judge the combined master. A limiter prevents some peaks; it cannot prove
-good balance, phrasing, licensing or artistic quality. Where an encode changes
-audio bytes, compare duration/synchronization and audible content; do not claim
-byte identity. The manifest's audio fields are not a full editor or audio workstation.
+Compare voice levels between takes, then shape music around speech and the
+emotional turn. A limiter can constrain peaks but cannot establish balance,
+phrasing, licensing or artistic quality. Keep source timing for an existing
+performance. Apply the review method's perception scope honestly.
 
 ## Diagnose creative failure without laundering a technical PASS
 
-Use this compact rubric after rejection, or at the first integrated film review.
-Record `observed failure`, `not observed in this review`, or `not reviewed` for
-each relevant dimension, with a timecode and evidence from the actual master.
-No total score is required; a score supplied by the user remains their judgment.
+Use the following to choose a focused repair within the existing review record.
 
-| Dimension | Failure to look for | Smallest useful next proof |
-| --- | --- | --- |
-| Story and payoff | The product or result appears without a visible cause; captions carry the missing story. | Revised causal sequence understood muted, with the same object/person linking the change. |
-| Brief and setting | Casting, place, language, tone or ambition contradicts the actual brief. | A representative sequence matched against the user's stated direction. |
-| Edit and performance | Attractive shots repeat a job, dead holds stall the film, cuts miss action or musical phrasing. | Running before/after cut around the failed beat with original sound. |
-| Brand and graphics | Wrong logo, weak font instance, unreadable copy, disconnected cards or unstable generated lettering. | In-context moving proof of entry, settled hold and exit with exact assets. |
-| Sound | Generated audio leaks in, dialogue is masked, music is mechanically looped or the ending is cut off. | Isolated affected tracks and the corrected full mixed interval. |
-| Product truth | A staged result is presented as live execution, or a claim exceeds evidence. | Source-backed shot/copy correction and accurate example labeling. |
+| Dimension | Failure to look for | Useful evidence |
+|---|---|---|
+| Story | Captions or an author's explanation supply missing cause or meaning. | Unprimed comprehension compared with frozen essentials. |
+| Premise and brief | Needed motivation is implausible, or setting/casting contradicts the brief. | Supported story assumptions and representative sequence. |
+| Performance and edit | Repeated jobs, dead holds, cuts that miss action or musical phrasing. | Actual neighbouring clips and original sound. |
+| Brand and graphics | Ambiguous speaker/role, wrong logo, unreadable or unstable type. | In-context entrance, hold, state change and exit. |
+| Sound | Leaked effects, masked speech, clipped words or an abrupt ending. | Qualified listening plus isolated tracks and measurements. |
+| Product truth | An illustration is presented as recorded execution. | Provenance and accurate claim classification. |
 
-Select the one or two failures that most damage the intended experience, reuse
-the responsible editor/renderer and compare a bounded revision in motion. Once
-the issue is resolved, integrate it and rewatch the full film; a repaired insert
-does not prove the surrounding story or mix. If the same approach fails again,
-inspect native capabilities and focused references before another generation.
-New providers, spending or installations still require the applicable authority.
-
-Report four outcomes separately in the existing validation note: technical
-checks, creative observations, product/claim evidence, and user acceptance.
-Unrun or unreturned judgment stays pending. A revision after a user's 5/10
-is a revision awaiting judgment, not an automatically earned 8/10. Publication
-approval is another decision and never follows from an automated check.
+Repair the failure that damages the intended experience at its actual owner.
+A repaired insert does not prove the whole film; recheck the affected sequence
+before another expansion. Follow [review decisions](continuity-and-review.md)
+for status and handoff instead of inventing a numerical quality certification.

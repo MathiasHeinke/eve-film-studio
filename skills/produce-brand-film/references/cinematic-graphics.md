@@ -26,6 +26,19 @@ messaging-app analogy supplies familiar interaction language, not a requirement
 to copy another product's logo, palette or actual UI. Preserve accurate product
 artwork when claiming to show the real interface; identify staged examples.
 
+## UI provenance and claim class
+
+A generated composer, reply or result is an `illustrative example` in the
+storyboard's existing `claim_class`, including when its appearance follows a
+real interface reference. Record that reference, or that the design is
+conceptual, in the existing provenance notes. It is not a capture of execution.
+When describing actual shipped UI, verify the reference and avoid invented
+controls or unsupported capabilities. Exact original brand artwork remains
+required. A message-shaped graphic does not itself prove that work was done.
+
+For the optional renderer policy and its readable holds, see the
+[manifest contract](timeline-manifest.md#optional-kinetic-policy).
+
 ## Design the chosen grammar inside the scene
 
 Plan graphics beside the performance and camera. A floating composer or reply
@@ -61,7 +74,8 @@ it does not select a specific panel shape, material or text animation.
 For a generative composer/message test, specify its communication role and
 required state transitions as well as wording, hierarchy, contrast, entrance,
 readable hold and exit. H3 may render that element when supported and verified;
-precise compositing is also valid. Judge the scene, not the provider name. Inspect the full intended insertion interval: accents, letter
+precise compositing is also valid. Judge the scene, not the provider name.
+Inspect the full intended insertion interval: accents, letter
 shapes, numbers and spacing may drift between otherwise attractive frames.
 Choose the result by the film's visual and comprehension needs, not by which
 rendering method produced it.

@@ -4,6 +4,19 @@ Before a dependent generation batch, settle the story, required actions and
 continuity. Planned times and handles are production targets; record the actual
 source-to-timeline mapping after inspecting the delivered performance.
 
+## Story essentials
+
+At the top of `production/storyboard.md`, write the viewer's essential cause
+and turn, then three to five brief relationship/knowledge assumptions the story
+actually needs (fewer when sufficient). Use: `assumption → establishing shot,
+dialogue/action or supported implication → established / missing`.
+Example: `A has reason to trust B with the handoff → S02 shows prior coordination → established`.
+A missing essential assumption means that beat is not ready. Do not require
+exposition for incidental facts or invent offscreen history to fill the row.
+Freeze these essentials before the rendered sequence's cold review.
+
+## Shot plan
+
 | Field | Requirement |
 |---|---|
 | id | Stable shot id such as S03. |
@@ -21,13 +34,13 @@ source-to-timeline mapping after inspecting the delivered performance.
 | fallback | Smallest story-consistent replacement if the action or continuity fails. |
 | claim_class | Source-backed, product-truth, opinion, aspirational, illustrative example, or blocked. |
 
-For connected scenes, use [continuity-and-review.md](continuity-and-review.md).
-Review finished storyboard, ordered anchors and actual adjacent clips at their
-respective stages. These fields aid judgment; filling them is not a PASS.
+Use [continuity-and-review.md](continuity-and-review.md) for the `Review records`
+section in this same document and its progression rules. These fields aid
+judgment; completing the table is not evidence that the checks occurred.
 
 ## Pacing starting points
 
-Establishing shots may need2–4s; brief reaction/inserts may need less; emotional
+Establishing shots may need 2–4s; brief reaction/inserts may need less; emotional
 recognition and an ending need room. Choose time from the actual action,
 spoken phrase and required reading, not a fixed template. One clear message
 at a time; verify at the intended viewing size.

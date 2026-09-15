@@ -1,96 +1,103 @@
-# Story logic, visual continuity and staged review
+# Story logic, continuity and review decisions
 
-Use for narrative films with connected generated shots, especially dialogue,
-object handling or a subtle emotional turn. These are internal production
-checks, not requests for user approval at every stage. Work within the existing
-brief, budget and editor; no new orchestration or state system is needed.
+This file owns staged review, cold comprehension checks and generation
+sequence. Use the existing storyboard and editor; these internal checks do
+not require a new user approval before each scene.
 
-## Review the story before staging it
+## Reviewer and perception
 
-Have someone other than its author challenge the finished storyboard. State
-what each person knows, wants and has reason to do. Check relationships, trust,
-motivation, elapsed time and the everyday likelihood of each event. Distinguish
-possible from adequately established. A joke or emotional beat that works only
-after inventing offscreen history is not ready. Simplify the premise or earn
-the missing information; do not add an explanatory paragraph by default.
+Choose someone who did not write, generate or edit the material: a fresh agent
+session without the author's history, a separate model or an uninvolved person.
+Use a different model family for independent model assurance when available;
+follow any reviewer explicitly chosen by the user. An author checking their
+own work does not satisfy this role. If no qualified reviewer is available,
+record `not reviewed` and hold dependent production; continue useful independent
+preparation. Do not silently replace the reviewer with the author.
 
-Test what can be inferred from the film rather than what the author meant.
-For a subtle turn, identify the observable behavior that must change. "She is
-now present" is an intention; a specific changed response, action or exchange
-must carry it. Preserve the actual user's failed comprehension as evidence,
-even when a model reviewer previously liked the written story.
+Before review, record what the reviewer can actually inspect: still images,
+continuous motion, audio, and the intended viewing size. Missing motion or
+hearing leaves dependent checks `not reviewed`. Route those checks to a capable
+reviewer or identify the exact remaining user handoff. ASR, frame samples and
+meters support diagnosis; a player reaching the end proves playback, not
+perception, lip sync, intelligibility or story understanding.
 
-## Review reference images as a scene, not portraits
+## Stage records and progression
 
-Review the complete ordered anchor/storyboard images before a dependent batch.
-Use a simple plan of the room when the geometry matters. For each join retain:
+Keep one `Review records` section in `production/storyboard.md`. Each record
+contains: stage and exact material version; reviewer and allowed inputs;
+perception available; observed understanding/findings with time/frame evidence;
+`ready`, `revise` or `not reviewed`; and the specific fix or remaining check.
+Preserve the cold response before adding the author's comparison. Long reports
+may be linked from this record; no separate tracking system is required.
 
-- Who is where, which side of the conversational axis the camera occupies,
-  what each person looks at and at what height.
-- Relevant hands, held objects, body posture and current action phase.
-- The emotional state and the action/information that could change it.
-- What is deliberately continuous, what changes offscreen, and whether an
-  intended time ellipse is legible.
+| Stage | Material | Decision needed before progressing |
+|---|---|---|
+| Storyboard | Complete story, essential assumptions and shot plan | Relationships, motivation and knowledge are adequately established; the turn is plausible and filmable. |
+| Anchors | Ordered actual images, scene layout and adjacent boundaries | Required gaze, hands/props, action states and graphic roles connect. |
+| Takes / edit | Actual clips with preceding/following context and original sound | Required meaning and continuity survive the delivered performance and cuts, within the declared perception scope. |
 
-A shared face reference protects identity; it does not preserve these states.
-An attractive end-state portrait is not automatically a valid opening frame.
-Check the last intended frame beside the next first frame and flag unexplained
-changes before paying for the next shot. Normal movement during a motivated
-reverse shot is allowed; continuity does not mean freezing every pose.
+`ready` applies only to the stated stage and observed checks. A material failure
+is `revise`; an absent check or capability is `not reviewed`. Neither becomes
+ready because another dimension passed. Preserve a user's failed comprehension
+as evidence even when an earlier model liked the written concept.
+
+## Plausibility before staging
+
+Use the storyboard's `Story essentials` section to state what the audience must
+understand and where each needed relationship or piece of shared knowledge is
+established. Check motivation, trust, elapsed time and everyday likelihood.
+Possible is not the same as adequately established. A beat requiring invented
+offscreen history is not ready. Simplify it or earn the missing information;
+do not automatically repair it with more exposition. Irrelevant background
+facts need not be established, and implication can be enough when supported.
+
+## Cold comprehension protocol
+
+1. Freeze the essential relationship, cause and turn in the storyboard before review.
+2. Give a fresh reviewer only a neutral-named sequence and neutral delivery context.
+3. Exclude script, prompts, narrative filenames/metadata, prior criticism and desired interpretation.
+4. Ask for three short answers: what happened, who initiated it, and what changed; then uncertainties.
+5. Save that response verbatim before exposing the storyboard or criticism for comparison.
+6. Compare meaning, not exact wording, against the frozen essentials.
+7. Missing or contradicted essential meaning is `revise`; no author explanation can convert that cold pass to success.
+8. Repair the relevant story or staging and repeat with a fresh unprimed reviewer; absent perception/reviewer is `not reviewed`.
+
+This protocol tests the rendered sequence. Storyboard criticism is a separate
+stage that can read the script. Neither test requires a viewer to state every
+intended emotional nuance, but the cause and change carrying the film must be
+understood without the author's rescue explanation.
+
+## Inspect anchors and actual joins
+
+Use a simple room plan when geometry matters. Compare the previous ending and
+next beginning for scene position, camera side, gaze target/height, relevant
+hands and held objects, body posture, action phase and emotional state. Name
+what remains continuous and what change or time ellipse is intended. Normal
+movement during an offscreen reverse shot is allowed; not every pose change
+is an error. A shared face reference protects identity, not all these states.
+
+Inspect the actual last/first frames and a short moving interval on both sides
+of every meaningful join. Retakes and source rearrangements require rechecking
+the joins they affect. A pretty end-state portrait need not be a valid opening.
 
 ## Generate dependent shots in sequence
 
-Mark a shot as dependent when its start relies on an earlier accepted action,
-prop state, gaze or pose. Produce the predecessor first and inspect the actual
-usable ending. Use an approved boundary frame or short adjacent video interval
-as a reference for the next angle when the provider supports it; retain the
-character reference separately. Bind the next request to that observed state,
-not to a reset master portrait or a hoped-for end described in a prompt.
+A shot is dependent when its start needs an earlier accepted action, prop,
+gaze or pose. Produce and inspect that predecessor first. Where supported, use
+its actual accepted boundary frame or short adjacent video as the next angle's
+reference, keeping the identity reference separate. Bind the request to that
+observed state, not a reset master portrait or hoped-for prompt ending.
 
-For a new camera angle, preserve world-space relationships and action phase,
-not the old camera's raw pixel coordinates. Verify the provider's actual input
-support, transfer boundary and pricing. A frame reference does not guarantee
-synchronous performance; a video reference still needs a join check.
+Changing camera angle preserves world-space relationships and action phase,
+not pixel coordinates. Verify current input support, transfer scope and budget;
+neither an image nor video reference guarantees synchronous performance.
+Independent settings and self-contained inserts may still run in parallel.
+"Same room" alone does not establish independence.
 
-Independent environments, self-contained inserts and unrelated shots can run
-in parallel. Do not serialize the whole film merely because one conversation
-needs sequential work. Conversely, a writer saying "same room" does not make
-a pair of dependent takes safe to generate independently.
+## Keep repair proportionate
 
-## Review actual videos and the assembled joins
-
-The reviewer did not author or generate the material being judged. Use the
-available independent route and record unavailable review capabilities honestly.
-First show the real scene/sequence without the explanatory script or intended
-emotion. Ask what happened, who initiated it, what changed and what remains
-unclear. Only then compare that account with the storyboard. This cold pass
-prevents the review from supplying missing meaning on the author's behalf.
-
-Review three material boundaries:
-
-| Stage | Input | What must be resolved before progressing |
-|---|---|---|
-| Storyboard | Finished story and storyboard, not just a logline | Plausible motivation and knowledge; earned causal turn; economical, filmable actions. |
-| Anchors | Ordered actual images, scene layout and adjacent boundaries | Eyelines, camera side, hands/props, starting/ending state and graphic grammar agree. |
-| Takes and edit | Actual generated clips with the preceding/following shot and original sound | Meaning survives performance and cuts; continuity, timing and reading load work in motion. |
-
-Inspect the actual last/first frames and a short moving interval on both sides
-of every meaningful join. For source rearrangements or retakes, revisit the
-joins they changed. Do not infer temporal continuity, lip sync, dialogue timing
-or rhythm from an isolated contact sheet. A displayed player reaching the end
-proves playback, not that the reviewer could see or hear the required content.
-If a capability is absent, mark that part unreviewed; never turn text, ASR or
-frame measurements into a claimed audiovisual acceptance.
-
-## Keep the fix proportionate
-
-Prefer fewer simultaneous actions when a shot needs several precise gestures,
-spoken lines and emotional shifts to work. Simplify the staging before writing
-a longer prompt. Build a short connected sequence to prove the hard turn, then
-continue. A cutaway may cover a join only if it belongs to the story; it must
-not be used to declare an incoherent sequence solved.
-
-Return specific findings with the exact stage, version and time/frame evidence.
-Resolve them in that owner, recheck the affected sequence, and retain the
-result in the existing storyboard/edit notes. No new quality score, automated
-creative PASS or publication approval follows from these checks.
+If several precise gestures, lines and emotional changes overload a shot,
+simplify its staging before adding prompt instructions. Prove the hard turn
+with a short connected sequence. A cutaway must belong to the story and cannot
+by itself certify that an incoherent join is solved. Recheck the affected
+stage, record the result and continue only within its supported scope.
