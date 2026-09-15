@@ -100,6 +100,34 @@ zusammen **USD 8,69737**. Die unaufgelöste USD-0,50-Reserve bleibt separat.
 Insgesamt sechs Bilder über das eingebaute Werkzeug ohne separat gemeldeten
 Einzelpreis. Diese Summe ist weiterhin keine Vollkostenrechnung.
 
+## Übernahme der Kritik in das Skillset
+
+Die jüngste Kritik war zunächst im Film und diesem Bericht umgesetzt. Danach
+wurde sie in den tatsächlich geladenen Skill übertragen:
+
+- [Film craft](../../skills/produce-brand-film/references/film-craft.md): sichtbare
+  Arbeit und ein veränderter Schlusszustand; Leerstellen kürzen; Clipdauer als
+  Materialreserve behandeln. Kurze Ansichten sind eine Option für einen
+  entsprechend schnellen Brief, keine universelle Schnittquote.
+- [Kontinuität](../../skills/produce-brand-film/references/continuity-and-review.md):
+  Haar/Kleidung/Werkzeugzustände vergleichen und vor Retakes einen begrenzten
+  lokalen Schnitt-, Ausschnitt- oder Spiegelversuch bewerten.
+- [Videoprüfung](../../skills/produce-brand-film/references/gemini-video-review.md):
+  widersprüchliche Detailurteile gegen den tatsächlichen Output prüfen;
+  ohne neue Evidenz keine Reihe weiterer Modellurteile oder Retakes kaufen.
+- Der Einstiegspunkt ruft die Prüfung von Handlung und Rhythmus beim Schnitt
+  ausdrücklich auf. Ein beteiligter Fable-Autor zählt dort als Supervisor,
+  nicht als unabhängiger Prüfer.
+
+Ein frischer Fable-5.1-Pass erprobte die Anweisungen an zwei beschriebenen Fällen:
+einem kurzen Werkstattspot und einem bewusst langsamen Handwerksporträt.
+Er übertrug die Regeln auf den ersten Fall und bewahrte sinnvolle lange
+Einstellungen im zweiten. Drei benannte Unschärfen wurden präzisiert:
+Plattform ist keine Tempoanweisung; manuelle Arbeit nach Bestätigung wird auf
+ihre Bedeutung geprüft statt pauschal verboten; Unabhängigkeit hängt von der
+Mitwirkung ab, nicht vom Modellnamen. Das ist ein begrenzter Szenariotest der
+Ergänzungen, keine neue Gesamtbenotung und kein neuer gerenderter Filmnachweis.
+
 ## Nächste Iteration
 
 1. Einen besonderen menschlichen Moment vor den Kameraentscheidungen finden.

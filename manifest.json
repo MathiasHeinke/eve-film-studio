@@ -1,6 +1,6 @@
 {
   "name": "eve-film-studio",
-  "revision": "source-audio-exact-cuts-20260915",
+  "revision": "human-action-and-pacing-20260915",
   "license": "MIT",
   "entrypoints": [
     "skills/produce-brand-film/SKILL.md",
@@ -9,8 +9,8 @@
   "files": [
     {
       "path": "skills/produce-brand-film/SKILL.md",
-      "sha256": "ec28e84e204d3bc84a797ddd7c9fea0e895644a57093c7a0debc0b7bd85f7e5c",
-      "bytes": 4987
+      "sha256": "2c68479565d5c81586a1f53d6ad974441cfa22f665175fe86b7b47f4add44956",
+      "bytes": 5301
     },
     {
       "path": "skills/produce-brand-film/agents/openai.yaml",
@@ -24,18 +24,18 @@
     },
     {
       "path": "skills/produce-brand-film/references/continuity-and-review.md",
-      "sha256": "017c01e87a7660f393acfa857d3f0c735679ca0537de0d49dab5b04d0a9e6879",
-      "bytes": 6799
+      "sha256": "c9c2db3cc74e1d9787b506543d40c71ac3a4b5499d43733f8269dcfcd8cbbe7d",
+      "bytes": 7903
     },
     {
       "path": "skills/produce-brand-film/references/film-craft.md",
-      "sha256": "292928e38e613c537e3c3e65e1fe5a5758f919f744ce9d8a4e72ddee20c7511a",
-      "bytes": 5470
+      "sha256": "7242ae7566ad54db8540657e20efca19900c7041baaad0a4454326d27adcdfb3",
+      "bytes": 7815
     },
     {
       "path": "skills/produce-brand-film/references/gemini-video-review.md",
-      "sha256": "0dcd00f1bc3fff28b24645bbe8d20170eccd59281d69e8a35930eaa404a09cea",
-      "bytes": 7470
+      "sha256": "4c35c389e118d74a11ff48bd52bdd8f2b6e3d783a777b1fbf49534e399813cb3",
+      "bytes": 8051
     },
     {
       "path": "skills/produce-brand-film/references/grok-media-routing.md",

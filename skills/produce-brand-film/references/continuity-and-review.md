@@ -8,11 +8,16 @@ not require a new user approval before each scene.
 
 Choose someone who did not write, generate or edit the material: a fresh agent
 session without the author's history, a separate model or an uninvolved person.
-Use a different model family for independent model assurance when available;
-follow any reviewer explicitly chosen by the user. An author checking their
-own work does not satisfy this role. If no qualified reviewer is available,
-record `not reviewed` and hold dependent production; continue useful independent
-preparation. Do not silently replace the reviewer with the author.
+Use a different model family for independent model assurance when available.
+Honor the user's chosen reviewer; if that reviewer helped make the film, label
+their check supervision. Use a fresh qualified reviewer for an independent
+check. If the user limits review to the involved person, honor that scope and
+record the independent check as not performed, without inventing independence.
+An author checking their own work does not satisfy that role. Where the agreed
+scope requires an independent check and no qualified reviewer is available,
+record `not reviewed` and hold only production that depends on that check;
+continue useful independent preparation. Do not silently replace the reviewer
+with the author.
 
 Before review, record what the reviewer can actually inspect: still images,
 continuous motion, audio, and the intended viewing size. Missing motion or
@@ -80,6 +85,12 @@ what remains continuous and what change or time ellipse is intended. Normal
 movement during an offscreen reverse shot is allowed; not every pose change
 is an error. A shared face reference protects identity, not all these states.
 
+Keep a compact character reference for details that drift: hair shape/length,
+wardrobe layers and cuffs, and the placement of working tools. Compare new
+anchors to the nearest accepted shot, not only the initial portrait. After a
+cutaway, account for what the person could actually have done during that
+interval; a one-second insert cannot silently reset several held objects.
+
 Inspect the actual last/first frames and a short moving interval on both sides
 of every meaningful join. Retakes and source rearrangements require rechecking
 the joins they affect. A pretty end-state portrait need not be a valid opening.
@@ -104,6 +115,12 @@ Independent settings and self-contained inserts may still run in parallel.
 "Same room" alone does not establish independence.
 
 ## Keep repair proportionate
+
+Before paying for a retake, consider a bounded local trim, reframe or mirror
+test on the actual adjoining shots. Mirroring can fix screen-side order but
+also reverses writing, light, handedness and props; it does not remove an orbit
+or repair acting. Accept it only if the scene's relationships still make sense.
+Keep the original and compare the derivative in context, not in isolation.
 
 If several precise gestures, lines and emotional changes overload a shot,
 simplify its staging before adding prompt instructions. Prove the hard turn

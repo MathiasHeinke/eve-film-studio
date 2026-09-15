@@ -91,6 +91,15 @@ reveal a real offset. A mistaken model timecode does not by itself disprove the
 underlying defect. Preserve a user's direct observation and correct the narrow
 finding rather than discarding it wholesale.
 
+Do not turn a single closed-mouth frame into a claim that an entire sentence
+is unarticulated. Check the alleged interval against actual decoded output
+frames and the original audio. Those frames may disprove a motionless-mouth
+claim without establishing phonetic sync. If one focused follow-up still
+contradicts that evidence, preserve the disagreement and route the unresolved
+part to a qualified hearing viewer; do not keep purchasing model votes or
+retakes without new diagnostic evidence. A valid L-cut is an editorial choice,
+not proof that generated lip sync was repaired.
+
 Give the original answers, selected media evidence and limitations to the
 independent creative reviewer selected for the task (for example Fable). The
 reviewer must distinguish Gemini's observations from their own perception,

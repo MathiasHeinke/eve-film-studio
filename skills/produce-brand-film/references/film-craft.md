@@ -32,10 +32,30 @@ unstated and what the viewer can infer. A gesture, delayed response or choice
 can reveal character while advancing action. Specificity matters more than
 extra props or a speech describing the intended emotion.
 
+Establish the work through a small, observable action that belongs to this
+person's day. A precise check, adjustment or notation can show what an
+interruption would cost. Decorative hand movements and generic busy poses do
+not establish that. If an interruption drives the next line, make its cue and
+the person's response perceptible; repetition may build pressure when the
+story needs it, but is not a mandatory two-notification formula.
+
+Compare the opening and closing behavior. Two similar smiles or a prolonged
+mutual gaze do not by themselves show relief or change. Give the ending a
+different task state, choice or gesture before adding more explanation.
+
 For a problem/solution story, connect need, product action, visible result and
 human consequence through the same request, object or person. Other structures
 are valid; state the intended progression rather than forcing every story into
 a template. An ending cannot supply a causal link missing from the scene.
+
+Check what a detail means in its exact position. Manual writing immediately
+after an assistant confirms a task can imply that the person still has to do
+that task. Establish the separate purpose visually, move the detail earlier,
+or omit it. A cold viewer's reading matters more than the author's intended
+meaning; occupational realism alone does not make an insert appropriate.
+Ask a cold viewer what work the person does after the confirmation. Do not
+ban manual activity categorically or use a caption to excuse a contradictory
+action; revise the action or its order if the observed reading defeats the idea.
 
 When learning from a reference campaign, distinguish observed audiovisual
 mechanics, reported synopsis, inferred effect and documented recognition.
@@ -49,6 +69,23 @@ editing does not require a cut on every beat. Pressure may shorten a shot;
 recognition and payoff need space. Break an established rhythm deliberately
 when the important change arrives. Judge the joins in sequence, not just a
 list of durations.
+
+Generated clip length is coverage and trim room, not the finished shot length.
+Choose the useful action in/out points. For a brief asking for brisk short-form
+viewing, try roughly one-to-three-second views as a starting point, not a quota;
+spoken meaning, a developing reaction or legible text can justify longer holds.
+Do not infer this pace merely from a social placement.
+Do not stretch a film to the original duration target after the user asks for
+a shorter cut.
+
+On the actual sequence, ask what each held interval adds: action, information,
+reaction or reading. Trim settled poses, repeated looks and silence that adds
+nothing. If speech needs more time, a motivated detail or listener can carry
+it across a cut. Verify every visible person: a cutaway that still shows the
+speaker's closed mouth does not solve the mismatch. Recheck prop and action
+states after covering or shortening a pause; speed cannot excuse teleporting
+tools or a repeated action. Use reframing only when it earns a clearer view,
+and inspect the resulting crop quality at delivery size.
 
 A graphic's entrance and exit consume time; preserve its actual reading hold.
 If explanation cards have become the whole film, repair the human action or

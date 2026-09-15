@@ -45,7 +45,9 @@ supplies native editing operations; no second production system is needed.
 
 5. **Edit picture and sound.** Use the existing editor or
    `scripts/assemble_film.py --manifest <timeline.json>` with the
-   [manifest guide](references/timeline-manifest.md). Keep dialogue, music and
+   [manifest guide](references/timeline-manifest.md). Apply the
+   [action and rhythm pass](references/film-craft.md#rhythm-belongs-to-action-and-sound)
+   to the actual takes before settling their lengths. Keep dialogue, music and
    selected ambience separate from picture inserts. Probe delivered media;
    no-audio requests do not guarantee silence. Use `generate_score.py` only
    when an original procedural score serves the brief, then assess its quality.
@@ -58,8 +60,10 @@ supplies native editing operations; no second production system is needed.
    declare the reviewer's available image, motion and audio perception using
    the staged review method. For a low-cost audiovisual model pass, use
    [Gemini video review](references/gemini-video-review.md), then give its
-   evidence and contradictions to an independent creative reviewer such as
-   the user's selected Fable model. Missing hearing leaves sound-dependent checks
+   evidence and contradictions to a reviewer who did not write, generate or
+   edit the film. The user's selected Fable model can fill that role only if
+   uninvolved; otherwise label its contribution supervision and follow the
+   staged method for the independent check. Missing hearing leaves sound-dependent checks
    `not reviewed`; arrange a capable reviewer or leave a precise user handoff.
    Apply [review gates](references/review-gates.md), perform the qualified
    full-film viewing, and run `validate_film.py` with a matching contact sheet.
