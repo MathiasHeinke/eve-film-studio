@@ -38,6 +38,9 @@ when deciding which failure needs repair.
 ## Sound — only with qualified hearing
 
 - Complete dialogue is understandable at the intended playback level.
+- Follow the complete phrase across adjoining shots: intended offscreen speech
+  does not excuse later visible speaking after the voice has ended. Check the
+  recorded audio/source ranges and actual moving passage together.
 - Music supports the scene and does not mask speech; edits and the tail sound natural.
 - Selected source sound does not duplicate or replace the separate master tracks.
 - A muted pass tests visual comprehension separately; optional captions are identified.

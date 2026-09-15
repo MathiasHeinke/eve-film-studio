@@ -21,6 +21,10 @@ reviewer or identify the exact remaining user handoff. ASR, frame samples and
 meters support diagnosis; a player reaching the end proves playback, not
 perception, lip sync, intelligibility or story understanding.
 
+For a native audiovisual model pass, use [Gemini video review](gemini-video-review.md).
+Preserve model findings and contradictory detail replies as evidence for the
+creative reviewer; input-modality receipts do not prove perceptual accuracy.
+
 ## Stage records and progression
 
 Keep one `Review records` section in `production/storyboard.md`. Each record
@@ -79,6 +83,11 @@ is an error. A shared face reference protects identity, not all these states.
 Inspect the actual last/first frames and a short moving interval on both sides
 of every meaningful join. Retakes and source rearrangements require rechecking
 the joins they affect. A pretty end-state portrait need not be a valid opening.
+
+Check dialogue over the entire adjoining passage: audible phrase, visible
+speaker/mouth and subsequent shot. Valid offscreen speech can still be followed
+by silent speaking movements that expose an offset. Do not dismiss that defect
+because the speaker was invisible during the earlier part of the line.
 
 ## Generate dependent shots in sequence
 

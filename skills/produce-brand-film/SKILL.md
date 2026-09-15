@@ -1,6 +1,6 @@
 ---
 name: produce-brand-film
-description: Create or repair complete 20-90 second brand, product, launch and advertising films from a brief and real assets. Use for story, art direction, footage generation, edit, typography and sound through a reviewable master. For an existing-footage edit without a campaign brief, use video-editing.
+description: Create, repair or review complete 20-90 second brand, product, launch and advertising films from a brief and real assets. Use for story, direction, footage, editing, typography, sound and Gemini audiovisual review. For an existing-footage edit without a campaign brief, use video-editing.
 ---
 
 # Produce Brand Film
@@ -56,7 +56,10 @@ supplies native editing operations; no second production system is needed.
 
 6. **Review and deliver the exact version.** Before assigning review checks,
    declare the reviewer's available image, motion and audio perception using
-   the staged review method. Missing hearing leaves sound-dependent checks
+   the staged review method. For a low-cost audiovisual model pass, use
+   [Gemini video review](references/gemini-video-review.md), then give its
+   evidence and contradictions to an independent creative reviewer such as
+   the user's selected Fable model. Missing hearing leaves sound-dependent checks
    `not reviewed`; arrange a capable reviewer or leave a precise user handoff.
    Apply [review gates](references/review-gates.md), perform the qualified
    full-film viewing, and run `validate_film.py` with a matching contact sheet.

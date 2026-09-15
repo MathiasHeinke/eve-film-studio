@@ -11,6 +11,10 @@ and turn, then three to five brief relationship/knowledge assumptions the story
 actually needs (fewer when sufficient). Use: `assumption → establishing shot,
 dialogue/action or supported implication → established / missing`.
 Example: `A has reason to trust B with the handoff → S02 shows prior coordination → established`.
+For a product action, establish the needed input: `the assistant can access the
+notes → the visible file or an intelligible handoff supplies them → established`.
+Offscreen anecdotes may remain verbal; their required trust and knowledge must
+make everyday sense without contradictory or invented history.
 A missing essential assumption means that beat is not ready. Do not require
 exposition for incidental facts or invent offscreen history to fill the row.
 Freeze these essentials before the rendered sequence's cold review.

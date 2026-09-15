@@ -1,6 +1,6 @@
 {
   "name": "eve-film-studio",
-  "revision": "fable-recommendations-20260915",
+  "revision": "gemini-audiovisual-review-20260915",
   "license": "MIT",
   "entrypoints": [
     "skills/produce-brand-film/SKILL.md",
@@ -9,8 +9,8 @@
   "files": [
     {
       "path": "skills/produce-brand-film/SKILL.md",
-      "sha256": "1d1aae124558ac1d367bfde631891a205535dc342b61f517a2a7a40e6d749d40",
-      "bytes": 4763
+      "sha256": "ec28e84e204d3bc84a797ddd7c9fea0e895644a57093c7a0debc0b7bd85f7e5c",
+      "bytes": 4987
     },
     {
       "path": "skills/produce-brand-film/agents/openai.yaml",
@@ -24,13 +24,18 @@
     },
     {
       "path": "skills/produce-brand-film/references/continuity-and-review.md",
-      "sha256": "b9ea730bedaee1da180f2e82c9ed25c3ae9da72130e7e8db6b59f34d6b9d2c04",
-      "bytes": 6251
+      "sha256": "017c01e87a7660f393acfa857d3f0c735679ca0537de0d49dab5b04d0a9e6879",
+      "bytes": 6799
     },
     {
       "path": "skills/produce-brand-film/references/film-craft.md",
       "sha256": "292928e38e613c537e3c3e65e1fe5a5758f919f744ce9d8a4e72ddee20c7511a",
       "bytes": 5470
+    },
+    {
+      "path": "skills/produce-brand-film/references/gemini-video-review.md",
+      "sha256": "0dcd00f1bc3fff28b24645bbe8d20170eccd59281d69e8a35930eaa404a09cea",
+      "bytes": 7470
     },
     {
       "path": "skills/produce-brand-film/references/grok-media-routing.md",
@@ -39,13 +44,13 @@
     },
     {
       "path": "skills/produce-brand-film/references/review-gates.md",
-      "sha256": "d48e2b700f51e44928f7867a439f2f3c67a109178a53f58979280bd9ab8b52a6",
-      "bytes": 3257
+      "sha256": "ac9493513e78d8c97663fdd45c065ef7da15a787c27ba9faa4b50ba50ca88165",
+      "bytes": 3481
     },
     {
       "path": "skills/produce-brand-film/references/storyboard-contract.md",
-      "sha256": "b4a72137e4c791ab45605a47b8020c4d4d4a3c930c118a16aa1d58b5fc33b30b",
-      "bytes": 3251
+      "sha256": "c48f3b48a052af4c09ce2fc3fd917484046152eb97ec19e62b91e7bd4c9d4ad3",
+      "bytes": 3559
     },
     {
       "path": "skills/produce-brand-film/references/timeline-manifest.md",

@@ -24,6 +24,12 @@ existing storyboard. The operational rules live in
 That method defines independent review, available perception, a neutral-input
 comprehension pass and when production needs revision or remains unreviewed.
 
+[Gemini audiovisual review](skills/produce-brand-film/references/gemini-video-review.md)
+adds a tested OpenRouter request recipe, neutral first-pass prompt, targeted
+excerpt checks, cost evidence and a critical handoff to the selected creative
+reviewer. It processes the actual film with sound; precise sync and conflicting
+observations still require checking against the material.
+
 ## Graphics follow their role
 
 A floating composer can reveal what a person is typing. An assistant message can show a reply. Attachments and status elements can show a completed result. Lower thirds can provide context; free typography can carry a campaign statement.
