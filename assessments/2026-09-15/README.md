@@ -8,6 +8,10 @@ Bewertet wurde Commit [`519a7f0`](https://github.com/MathiasHeinke/eve-film-stud
 Die hier veröffentlichten Berichte und der Reproduktionscode wurden danach
 ergänzt. Die bewerteten Produktionshelfer wurden dabei nicht verändert.
 
+Spätere Arbeit desselben Tages: [reparierter Ton- und Schnittpfad](audio-repair.md)
+und [neuer vollständiger Filmdurchlauf](new-film-run.md). Die ursprünglichen
+Noten und Befunde unten bleiben als Bewertung des damaligen Standes erhalten.
+
 - [Codex-Selbstbewertung](codex.md): **6/10 als betreut nutzbares Werkzeug**.
 - [Unabhängige Bewertung von Fable 5.1](fable.md): Methode überwiegend **5–7/10**,
   nachgewiesene Reife überwiegend **2–5/10**; Produktintegration nicht belegt.
