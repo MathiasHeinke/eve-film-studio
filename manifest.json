@@ -128,5 +128,178 @@
       "bytes": 8435
     }
   ],
-  "scope": "Skill files only. Local paths, production media and private reports excluded."
+  "scope": "Skill files only. Local paths, production media and private reports excluded.",
+  "last_updated_at": "2026-10-05T06:43:04.650739+00:00",
+  "status": "motion_studio_skillset_locally_integrated",
+  "current_update": {
+    "scope": "film skillset inventory, motion/hybrid contract, character look development, narration production",
+    "source_article": "https://x.com/0xwhrrari/article/2105643919119696297",
+    "method_files": [
+      "skills/produce-brand-film/SKILL.md",
+      "skills/produce-brand-film/agents/openai.yaml",
+      "skills/produce-brand-film/references/skillset-map.md",
+      "skills/produce-brand-film/references/motion-studio.md",
+      "skills/produce-brand-film/references/character-lookdev.md",
+      "skills/produce-brand-film/references/narration-production.md"
+    ],
+    "existing_owner": "produce-brand-film; vendor skills remain at their own owners",
+    "historical_source_records": "earlier source/provenance records retained; current package hashes below",
+    "validation": {
+      "official_quick_validate": "PASS for installed, bundle and Git-source skill",
+      "local_links_per_copy": 43,
+      "broken_local_links": 0,
+      "independent_forward_test": "four planning cases plus bounded final-delta recheck complete",
+      "open_vendor_issue": "Tesseract0.3.1 timing examples differ; live schema/playback verification required before native edits",
+      "script_changes": 0,
+      "runtime_render_or_hearing_acceptance": false,
+      "public_push_or_publication": false
+    }
+  },
+  "package_files": [
+    {
+      "path": "README.md",
+      "sha256": "8e1aef3a2d3b1d6d934b007d03f53a6e1876e7c9af4e35ccc1bc479b603d4c89",
+      "bytes": 7256
+    },
+    {
+      "path": "skills/produce-brand-film/SKILL.md",
+      "sha256": "08e76b624ee7b1a90ceff31e5cbd4bf92986653d7bac7321555b20fcbbe0a190",
+      "bytes": 7310
+    },
+    {
+      "path": "skills/produce-brand-film/agents/openai.yaml",
+      "sha256": "2a96e45f058e42cc2735b3ef5f4949598ef6886ca16b57ac2db4a60a67c58de8",
+      "bytes": 274
+    },
+    {
+      "path": "skills/produce-brand-film/references/character-lookdev.md",
+      "sha256": "d29a2daa5f780039d723bf029f8b571f844300cbfbeeb21c3544b36b18f488b3",
+      "bytes": 3553
+    },
+    {
+      "path": "skills/produce-brand-film/references/cinematic-graphics.md",
+      "sha256": "3f44ae90aba9cb8cd3b9e86b04674824617dce2a54f13ea24bf44a98fc03b25e",
+      "bytes": 6974
+    },
+    {
+      "path": "skills/produce-brand-film/references/continuity-and-review.md",
+      "sha256": "c9c2db3cc74e1d9787b506543d40c71ac3a4b5499d43733f8269dcfcd8cbbe7d",
+      "bytes": 7903
+    },
+    {
+      "path": "skills/produce-brand-film/references/film-craft.md",
+      "sha256": "7242ae7566ad54db8540657e20efca19900c7041baaad0a4454326d27adcdfb3",
+      "bytes": 7815
+    },
+    {
+      "path": "skills/produce-brand-film/references/gemini-video-review.md",
+      "sha256": "4c35c389e118d74a11ff48bd52bdd8f2b6e3d783a777b1fbf49534e399813cb3",
+      "bytes": 8051
+    },
+    {
+      "path": "skills/produce-brand-film/references/grok-media-routing.md",
+      "sha256": "ed837617eaf3410222b32d57b38fb8bee628c1200e4b7fc910c5763c61975169",
+      "bytes": 2481
+    },
+    {
+      "path": "skills/produce-brand-film/references/motion-studio.md",
+      "sha256": "4efcd12092d8f75086e3b4782e4d4ab936372b7ff16d3911cdd34ceb366a5d53",
+      "bytes": 5752
+    },
+    {
+      "path": "skills/produce-brand-film/references/narration-production.md",
+      "sha256": "a4dcac117147ee1c036a6ff7162de510408b0f086aa148050e4588f38d68483e",
+      "bytes": 3652
+    },
+    {
+      "path": "skills/produce-brand-film/references/review-gates.md",
+      "sha256": "ac9493513e78d8c97663fdd45c065ef7da15a787c27ba9faa4b50ba50ca88165",
+      "bytes": 3481
+    },
+    {
+      "path": "skills/produce-brand-film/references/skillset-map.md",
+      "sha256": "06d468ab08819929a2ae39a9771c5e848315d714952fdb0c0edbe7cf186d934f",
+      "bytes": 5845
+    },
+    {
+      "path": "skills/produce-brand-film/references/storyboard-contract.md",
+      "sha256": "c48f3b48a052af4c09ce2fc3fd917484046152eb97ec19e62b91e7bd4c9d4ad3",
+      "bytes": 3559
+    },
+    {
+      "path": "skills/produce-brand-film/references/timeline-manifest.md",
+      "sha256": "ee5905c9466f0b8fdf2ee2e239a8e877c5222014d3f9e1ea5a21f5d847309838",
+      "bytes": 11105
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/assemble_film.py",
+      "sha256": "33408ffd13db890c8a53600ff68763a97a9cc4d45c13b0ee5888b456a64c0e0c",
+      "bytes": 21263
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/generate_score.py",
+      "sha256": "06f7cf3f5493063fcf6d2557d8889bbff1bcb1f8d3cba7be8d15aee43393263b",
+      "bytes": 4696
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/kinetic_type.py",
+      "sha256": "f2fbb4a7321f53c179447c73c891f54c27c12c95d0900dbf7c4d47f1eff26840",
+      "bytes": 17950
+    },
+    {
+      "path": "skills/produce-brand-film/scripts/validate_film.py",
+      "sha256": "04daf2e8ddaa8b0959300e1249d2f9e16c0aadcc5c99763d2994d4775edb4ba1",
+      "bytes": 10283
+    },
+    {
+      "path": "skills/video-editing/SKILL.md",
+      "sha256": "624aa5df1d579095192dbdc431a47e5a6cde5af79dc968b38c63383924bb923d",
+      "bytes": 9360
+    },
+    {
+      "path": "skills/video-editing/examples/hermes-mcp.json",
+      "sha256": "29ad7daaed1df61e7e6407c451a8056556d461f18d59c2166326ad4fa2f594b0",
+      "bytes": 422
+    },
+    {
+      "path": "skills/video-editing/references/acceptance.md",
+      "sha256": "2249faba2e3257515a7fb7f0b495748b2c90995fb0eec4464dc88535df322780",
+      "bytes": 6612
+    },
+    {
+      "path": "skills/video-editing/references/camera-direction.md",
+      "sha256": "626fa4b42e4711729e06acf0e9e8b95802257d0c0318b2e1464e4fbb3853b207",
+      "bytes": 9382
+    },
+    {
+      "path": "skills/video-editing/references/community-sources.md",
+      "sha256": "00b4a2b7e3a4a32fdfbc4d5bcdd2d2e8cfe92b57deda35d747333771e56c6c96",
+      "bytes": 3357
+    },
+    {
+      "path": "skills/video-editing/references/editing-toolbox.md",
+      "sha256": "d7cb6bb03689e7ed397309e9e9262c8fb7e5194e96f4c1803dc98acbf462345f",
+      "bytes": 5752
+    },
+    {
+      "path": "skills/video-editing/references/generated-inserts.md",
+      "sha256": "422578608f5f21169f7d3067744d89cc811b75be1828d9c986c4c8fa45b503fa",
+      "bytes": 12334
+    },
+    {
+      "path": "skills/video-editing/references/setup.md",
+      "sha256": "6303f8cc7de033a8388d5f5a78342363c85461e0fc5655ff8b6958104758ba56",
+      "bytes": 4235
+    },
+    {
+      "path": "skills/video-editing/requirements-tested.txt",
+      "sha256": "ed967888d819021003ef8607fd60d90e11b3ce3ba93f0f15e80f39398d98f682",
+      "bytes": 695
+    },
+    {
+      "path": "skills/video-editing/scripts/verify_mcp.py",
+      "sha256": "e6b23dc5440dbec3de778c91e7881a587b1096bacf6fb9e60f4d982c77ab9896",
+      "bytes": 8435
+    }
+  ]
 }

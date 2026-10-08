@@ -1,4 +1,4 @@
 interface:
   display_name: "Produce Brand Film"
-  short_description: "Create gated cinematic brand films end to end"
-  default_prompt: "Use $produce-brand-film to create a complete cinematic launch film from my product brief and brand assets."
+  short_description: "Direct brand films, characters and motion studios"
+  default_prompt: "Use $produce-brand-film to select our existing film skillset and create a reviewable film from my brief, references and real assets."

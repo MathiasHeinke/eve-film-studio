@@ -13,6 +13,16 @@ The workflow treats story quality, visual continuity, product truth and technica
 
 The skills contain instructions, focused references and local Python helpers. They do not install an editor, grant provider access or create an autonomous production service.
 
+## Film and motion skillset — 2026-10-05
+
+The existing production workflow now includes a [skillset map](skills/produce-brand-film/references/skillset-map.md) for choosing the relevant installed authoring, image and editing skills. Load only the branch needed by the project.
+
+- [Motion studio](skills/produce-brand-film/references/motion-studio.md): choose code, footage or a hybrid; prove seeking, actual style and final export settings before a long render.
+- [Character look development](skills/produce-brand-film/references/character-lookdev.md): assess identity, expression, proportions, environment fit and a connected performance before a character batch.
+- [Narration production](skills/produce-brand-film/references/narration-production.md): write spoken lines for the story, audition a bounded sample, retain cost/provenance and inspect the final mixed passage.
+
+Existing HyperFrames, Remotion, Tesseract and image-generation skills stay at their own owners. The map does not install those runtimes or mandate a framework. The method adapts [Motion Engineering](https://x.com/0xwhrrari/article/2105643919119696297); campaign-specific style, measurements, models and prices are not universal requirements. Earlier assessments do not automatically validate these new modules.
+
 ## The production method
 
 The workflow moves from human observations and competing story ideas to a
